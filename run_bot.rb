@@ -1,3 +1,4 @@
+# encoding: UTF-8
 load 'twitter_auth.rb'
 require 'tweetbot'
 
