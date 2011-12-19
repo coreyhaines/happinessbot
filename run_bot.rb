@@ -21,6 +21,10 @@ bot = TweetBot.configure do |config|
   config.respond_to_phrase "goedemorgen" do |responses|
     responses << "En een goedemorgen voor jou! Ik wens je een fantastische dag vandaag! Weet hoe geweldig je bent!" << "Het is een goede ochtend. En de wereld is beter omdat jij hier bent."<< "Goedemorgen! Je verdient een fantastische dag vandaag! Geniet ervan!"<< "En een prachtige ochtend voor jou ook! Elke dag start met nieuwe mogelijkheden. Geniet ervan!"<< "Goedemorgen! Bedankt dat je zo geweldig bent. Geniet van je dag!" << "Geniet van je dag! Het leven is geweldig, en jij maakt het zelfs nog beter!" << "Ik hoop dat je dag vandaag geweldig is! Je verdient het!" << "Ik hoop dat vandaag geweldig voor je is. Bedankt dat je geweldig bent!" << "Elke dag heeft nieuwe potentiëlen en mogelijkheden. Je verdient het om ervan te genieten!" << "Geniet van je ochtend! Ontspan en haal diep adem. Vergeet niet dat je geweldig bent!"
   end
+  
+  config.response_to_phrase "arrrrr" do |responses|
+    responses << "Shiver me timbers! The winds look fine for sailin'! Arrrrr!" << "And an ARRRRR me matey to you and your crew. May the sky be arrredd for you evening!" << "ARRRR! WALK THE PLANK! HAR HAR! Not faarrr someone of your steed fine sailor! Sail well today!"
+  end
 
   # config.respond_to_phrase "good night" do |responses|
     # responses << "Sweet dreams! I hope your day was great and tomorrow is better!" << "Thanks for the good night wishes! Enjoy your rest and have a great day tomorrow!"
