@@ -26,6 +26,10 @@ bot = TweetBot.configure do |config|
     responses << "E um bom dia pra você também! Tenha um fantastico dia hoje! Lembre que você é incrível!" << "É um bom dia. E o mundo está melhor porque você está aqui." << "Bom dia! Você merece um fantastico dia hoje! Aproveite!" << "E uma ótima manhã para você também! Cada dia traz novas possibilidades. Aproveite!" << "Bom dia! Obrigado por ser incrível. Aproveite seu dia" << "Aproveite o seu dia! A vida é incrível, e você deixa ela ainda melhor" << "Eu espero que o seu dia seja maravilhoso! Você merece!" << "Eu espero que o seu dia de hoje seja maravilhoso para você. Obrigado por ser incrível!" << "Cada dia possui um novo potencial e possibilidades. Você merece aproveita-las" << "Aproveite sua manhã! Relaxe e respire fundo. Lembre que você é incrível!"
   end
 
+  config.respond_to_phrase "शुभ प्रभात" do |response|
+    response << "आपको भी शुभ प्रभात । आपका िदन मंगलमय हो ।" << "यह एक अच्छी सुबह है. और दुनिया बेहतर है क्योंकि आप यहाँ हैं|" << "सुप्रभात ! आप आज एक शानदार दिन का आनंद लें ।" << "आप एक अद्भुत सुबह का आनंद लें भी । हर दिन नई संभावनाओं के साथ खुलता है ।" << "सुप्रभात । लाजवाब होने के लिए धन्यवाद, अपने दिन का आनंद लें ।" << "अपने दिन का आनंद लें । जीवन अद्भुत है, और आप इसे और भी बेहतर बनाएं |" << "मैं आशा करता हूं कि आपका दिन लाजवाब बीते । आप इसके पात्र हैं" << "मुझे आशा है कि आज आप के लिए अद्भुत है" << "हर दिन नई क्षमता और संभावनाओं से भरा है। आप उन्हें आनंद के अधिकारी हैं ।" << "अपनी सुबह का आनंद लें।एक गहरी साँस ले । याद रखें आप लाजवाब हैं!"
+  end
+
   # config.respond_to_phrase "good night" do |responses|
     # responses << "Sweet dreams! I hope your day was great and tomorrow is better!" << "Thanks for the good night wishes! Enjoy your rest and have a great day tomorrow!"
   # end
