@@ -1,3 +1,7 @@
+unless ENV["ENV"] =~ /production/i
+  load 'dev_auth.rb'
+end
+
 module TwitterAuth
   MyName = ENV["BOT_NAME"]
   ApigeeEnpoint = ENV["APIGEE_TWITTER_API_ENDPOINT"]
