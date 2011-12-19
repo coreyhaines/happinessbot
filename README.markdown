@@ -17,8 +17,8 @@ Okay. Feel free to add your own phrases. Please make them nice, though. Nobody l
 ## Hey, I notice you support French and Dutch! Can you support my language?
 Yup!
 
-Thanks to [Franck Verrot](https://github.com/cesario) for adding French support.
-Thanks to [Kristof Schockaert](https://github.com/mekristof) for adding Dutch support.
+* Thanks to [Franck Verrot](https://github.com/cesario) for adding French support.
+* Thanks to [Kristof Schockaert](https://github.com/mekristof) for adding Dutch support.
 
 Now, if you want to send me a pull request for your language, I'll add it. You can be famous for making people happy in your favorite language!
 
