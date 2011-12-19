@@ -1,4 +1,5 @@
 # encoding: UTF-8
+$stdout.sync = true
 load 'twitter_auth.rb'
 require 'tweetbot'
 
