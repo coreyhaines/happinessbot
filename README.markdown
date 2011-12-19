@@ -14,11 +14,12 @@ It uses my awesome [tweetbot gem](https://github.com/coreyhaines/tweetbot) to li
 ## You want to do something like this?
 Okay. Feel free to add your own phrases. Please make them nice, though. Nobody likes to have mean things said to them.
 
-## Hey, I notice you support French and Dutch! Can you support my language?
+## Hey, I notice you support French, Spanish and Dutch! Can you support my language?
 Yup!
 
 * Thanks to [Franck Verrot](https://github.com/cesario) for adding French support.
 * Thanks to [Kristof Schockaert](https://github.com/mekristof) for adding Dutch support.
+* Thanks to [Gamaliel A. Toro Herrera](https://github.com/argami) for adding Spanish support.
 
 Now, if you want to send me a pull request for your language, I'll add it. You can be famous for making people happy in your favorite language!
 
