@@ -4,6 +4,7 @@ load 'twitter_auth.rb'
 require 'tweetbot'
 
 bot = TweetBot.configure do |config|
+  config.twitter_auth = TwitterAuth::AuthKeys
   config.response_frequency = 1
 
   config.respond_to_phrase "good morning" do |responses|
@@ -27,14 +28,13 @@ bot = TweetBot.configure do |config|
   end
 
   config.respond_to_phrase "guten morgen" do |responses|
-    responses << "Ebenfalls guten Morgen! Wünsche Dir einen fantastischen Tag! Denk daran, Du bist grossartig!" << "Es ist ein guter Morgen. Die Welt ist besser weil es Dich gibt!" << "Guten Morgen! Du verdienst einen fantastischen Tag heute! Viel Spass dabei!" << "Dir auch einen wunderbaren Morgen! Jeder Tag fängt mit neuen Möglichkeiten an. Viel Spass dabei!" << "Geniesse Deinen Tag! Das Leben ist grossartig und Du machst es sogar noch besser!" << "Ich hoffe Dein Tag wird wunderbar! Du verdienst es!" << "Ich hoffe heute wird ein wundervoller Tag für Dich. Danke, dass Du so grossartig bist!" << "Jeder Tag hat neues Potential und Möglichkeiten. Du verdienst es sie zu geniessen!" << "Geniesse Deinen Morgen! Entspann Dich und atme tief ein. Denk daran, Du bist grossartig!" 
+    responses << "Ebenfalls guten Morgen! Wünsche Dir einen fantastischen Tag! Denk daran, Du bist grossartig!" << "Es ist ein guter Morgen. Die Welt ist besser weil es Dich gibt!" << "Guten Morgen! Du verdienst einen fantastischen Tag heute! Viel Spass dabei!" << "Dir auch einen wunderbaren Morgen! Jeder Tag fängt mit neuen Möglichkeiten an. Viel Spass dabei!" << "Geniesse Deinen Tag! Das Leben ist grossartig und Du machst es sogar noch besser!" << "Ich hoffe Dein Tag wird wunderbar! Du verdienst es!" << "Ich hoffe heute wird ein wundervoller Tag für Dich. Danke, dass Du so grossartig bist!" << "Jeder Tag hat neues Potential und Möglichkeiten. Du verdienst es sie zu geniessen!" << "Geniesse Deinen Morgen! Entspann Dich und atme tief ein. Denk daran, Du bist grossartig!"
   end
 
-  # config.respond_to_phrase "good night" do |responses|
-    # responses << "Sweet dreams! I hope your day was great and tomorrow is better!" << "Thanks for the good night wishes! Enjoy your rest and have a great day tomorrow!"
+  # config.respond_to_phrase "शुभ प्रभात" do |response|
+    # response << "आपको भी शुभ प्रभात । आपका िदन मंगलमय हो ।" << "यह एक अच्छी सुबह है. और दुनिया बेहतर है क्योंकि आप यहाँ हैं|" << "सुप्रभात ! आप आज एक शानदार दिन का आनंद लें ।" << "आप एक अद्भुत सुबह का आनंद लें भी । हर दिन नई संभावनाओं के साथ खुलता है ।" << "सुप्रभात । लाजवाब होने के लिए धन्यवाद, अपने दिन का आनंद लें ।" << "अपने दिन का आनंद लें । जीवन अद्भुत है, और आप इसे और भी बेहतर बनाएं |" << "मैं आशा करता हूं कि आपका दिन लाजवाब बीते । आप इसके पात्र हैं" << "मुझे आशा है कि आज आप के लिए अद्भुत है" << "हर दिन नई क्षमता और संभावनाओं से भरा है। आप उन्हें आनंद के अधिकारी हैं ।" << "अपनी सुबह का आनंद लें।एक गहरी साँस ले । याद रखें आप लाजवाब हैं!"
   # end
 
-  config.twitter_auth = TwitterAuth::AuthKeys
 end
 
 bot.talk
