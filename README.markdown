@@ -18,11 +18,14 @@ Okay. Feel free to add your own phrases. Please make them nice, though. Nobody l
 Yup!
 
 * Thanks to [Franck Verrot](https://github.com/cesario) for adding French support.
-* Thanks to [Kristof Schockaert](https://github.com/mekristof) for adding Dutch support.
-* Thanks to [Gamaliel A. Toro Herrera](https://github.com/argami) for adding Spanish support.
-* Thanks to [Bruno Lara Tavares](https://github.com/bltavares) for adding Portugese support.
 * Thanks to [Björn Rochel](https://github.com/BjRo) for adding German support.
+* Thanks to [Gamaliel A. Toro Herrera](https://github.com/argami) for adding Spanish support.
+
+For some sad reason, currently having encoding issues, so working on these
+* Thanks to [Kristof Schockaert](https://github.com/mekristof) for adding Dutch support.
+* Thanks to [Bruno Lara Tavares](https://github.com/bltavares) for adding Portugese support.
 * Thanks to [Steen Hulthin Rasmussen](https://github.com/steenhulthin) for adding Danish support.
+* Thanks to [Amit Kumar](https://github.com/toamitkumar) for adding Danish support.
 
 Now, if you want to send me a pull request for your language, I'll add it. You can be famous for making people happy in your favorite language!
 
