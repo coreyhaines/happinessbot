@@ -26,6 +26,10 @@ bot = TweetBot.configure do |config|
     responses << "E um bom dia pra você também! Tenha um fantastico dia hoje! Lembre que você é incrível!" << "É um bom dia. E o mundo está melhor porque você está aqui." << "Bom dia! Você merece um fantastico dia hoje! Aproveite!" << "E uma ótima manhã para você também! Cada dia traz novas possibilidades. Aproveite!" << "Bom dia! Obrigado por ser incrível. Aproveite seu dia" << "Aproveite o seu dia! A vida é incrível, e você deixa ela ainda melhor" << "Eu espero que o seu dia seja maravilhoso! Você merece!" << "Eu espero que o seu dia de hoje seja maravilhoso para você. Obrigado por ser incrível!" << "Cada dia possui um novo potencial e possibilidades. Você merece aproveita-las" << "Aproveite sua manhã! Relaxe e respire fundo. Lembre que você é incrível!"
   end
 
+  config.respond_to_phrase "guten morgen" do |responses|
+    responses << "Ebenfalls guten Morgen! Wünsche Dir einen fantastischen Tag! Denk daran, Du bist grossartig!" << "Es ist ein guter Morgen. Die Welt ist besser weil es Dich gibt!" << "Guten Morgen! Du verdienst einen fantastischen Tag heute! Viel Spass dabei!" << "Dir auch einen wunderbaren Morgen! Jeder Tag fängt mit neuen Möglichkeiten an. Viel Spass dabei!" << "Geniesse Deinen Tag! Das Leben ist grossartig und Du machst es sogar noch besser!" << "Ich hoffe Dein Tag wird wunderbar! Du verdienst es!" << "Ich hoffe heute wird ein wundervoller Tag für Dich. Danke, dass Du so grossartig bist!" << "Jeder Tag hat neues Potential und Möglichkeiten. Du verdienst es sie zu geniessen!" << "Geniesse Deinen Morgen! Entspann Dich und atme tief ein. Denk daran, Du bist grossartig!" 
+  end
+
   # config.respond_to_phrase "good night" do |responses|
     # responses << "Sweet dreams! I hope your day was great and tomorrow is better!" << "Thanks for the good night wishes! Enjoy your rest and have a great day tomorrow!"
   # end
