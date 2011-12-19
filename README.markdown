@@ -22,6 +22,7 @@ Yup!
 * Thanks to [Gamaliel A. Toro Herrera](https://github.com/argami) for adding Spanish support.
 * Thanks to [Bruno Lara Tavares](https://github.com/bltavares) for adding Portugese support.
 * Thanks to [Björn Rochel](https://github.com/BjRo) for adding German support.
+* Thanks to [Steen Hulthin Rasmussen](https://github.com/steenhulthin) for adding Danish support.
 
 Now, if you want to send me a pull request for your language, I'll add it. You can be famous for making people happy in your favorite language!
 
