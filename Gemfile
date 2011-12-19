@@ -1,5 +1,5 @@
 source "http://rubygems.org"
-gem "tweetbot", "~> 0.1.3"
+gem "tweetbot", "~> 0.2.2"
 
 group "development" do
   gem 'heroku'
