@@ -64,4 +64,4 @@ DEPENDENCIES
   foreman
   heroku
   rspec
-  tweetbot
+  tweetbot (~> 0.2.2)
