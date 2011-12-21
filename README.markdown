@@ -29,3 +29,6 @@ For some sad reason, currently having encoding issues, so working on these
 
 Now, if you want to send me a pull request for your language, I'll add it. You can be famous for making people happy in your favorite language!
 
+## Credits
+
+Thanks a lot to [Kristof Schockaert](https://github.com/mekristof) for helping debug some UTF issues. Awesome community support!
