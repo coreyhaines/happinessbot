@@ -22,6 +22,7 @@ Yup!
 * Thanks to [Gamaliel A. Toro Herrera](https://github.com/argami) for adding Spanish support.
 * Thanks to [Kristof Schockaert](https://github.com/mekristof) for adding Dutch support.
 * Thanks to [Amit Kumar](https://github.com/toamitkumar) for adding Hindi support.
+* Thanks to [Federico Ravasio](https://github.com/razielgn) for adding Italian support.
 
 For some sad reason, currently having encoding issues, so working on these
 * Thanks to [Bruno Lara Tavares](https://github.com/bltavares) for adding Portugese support.
