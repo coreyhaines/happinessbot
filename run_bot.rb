@@ -18,7 +18,7 @@ bot = TweetBot.configure do |config|
   config.respond_to_phrase "bonjour" do |responses|
     responses << "Bonjour à vous! C'est une journée fantastique aujourd'hui! Rappelez-vous comme vous êtes génial!" << "C'est une bonne matinée, car le monde est meilleur quand vous êtes ici." << "Bonjour! Vous méritez une journée fantastique aujourd'hui! Amusez-vous!"<< "Et un matin merveilleux pour vous aussi! Chaque jour ouvre de nouvelles possibilités. Amusez-vous!"<< "Bonjour! Merci d'être génial. Profitez de votre journée!" << "Profitez de votre journée! La vie est belle, et vous la rendez encore meilleure!" << "J'espère que votre journée sera merveilleuse! Vous le méritez!" << "J'espère qu'aujourd'hui sera une journée merveilleuse pour vous. Merci d'être là!" << "Chaque jour ouvre des nouvelles portes et vous méritez d'en profiter!" << "Profitez de votre matinée! Détendez-vous et prenez une profonde respiration. N'oubliez pas que vous êtes génial!"
   end
-  
+
   config.respond_to_phrase "buongiorno" do |responses|
     responses << "E buongiorno a te! Abbi una fantastica giornata! Ricordati quanto sei incredibile!" << "È proprio un buon giorno. E il mondo è un posto migliore perché ci sei tu." << "Buongiorno! Ti meriti una giornata fantastica oggi! Goditela!" << "E un piacevole mattino anche a te! Ogni giornata si apre con nuove possibilità. Goditela!" << "Buongiorno! Grazie di essere fenomenale! Goditi la tua giornata!" << "Goditi la tua giornata! La vita è bella, e tu la rendi ancora migliore!" << "Spero che la tua giornata sia fantastica! Te lo meriti!" << "Spero che il giorno si riveli piacevole per te. Grazie di essere eccezionale!" << "Ogni giorno nasconde nuove possibilità e potenziale. Non fartele scappare!" << "Goditi la mattinata! Rilassati e fai un bel respiro. Ricordati che sei eccezionale!"
   end
@@ -43,10 +43,10 @@ bot = TweetBot.configure do |config|
   # config.respond_to_phrase "godmorgen" do |responses|
     # responses << "Og en god morgen til dig også! Hav en fantastisk dag i dag! Husk på hvor skøn du er!" << "Det er en god morgen. Og verden er en bedre verden, fordi du er i den."<< "Godmorgen! Du fortjener en fantastisk dag i dag! Nyd den!"<< "Og en vidunderlig dag til dig også! Hver dag åbner nye muligheder. Nyd den!"<< "Godmorgen! Tak fordi du er fantastisk. Nyd din dag!" << "Nyd din dag! Livet er skønt, og du gør det endnu bedre!" << "Jeg håber din dag bliver vidunderlig! Du har fortjent det!" << "Jeg håber dagen i dag bliver vidunderlig for dig. Tak fordi du er pragtfuld!" << "Hver eneste dag har nyt potentiale og nye muligheder. Nyd dem! Du fortjener det." << "Nyd din morgen! Slap af og tag en dyb indånding. Husk du er fantastisk!"
   # end
-  
-  config.respond_to_phrase "good morning" do |responses|
-    responses << "Sana da günaydın! Günün harika geçsin! Unutma, sen muhteşemsin!" << "Güzel bir sabah. Ve sen burada olduğun için Dünya daha güzel."<< "Günaydın! Bugün harika bir günü hakediyorsun! Keyfini çıkar!"<< "Sana da harika bir günaydın! Her yeni gün beraberinde yeni fırsatlar getirir. Keyfini çıkar!"<< "Günaydın! Harika olduğun için teşekkürler. Gününün keyfini çıkar!" << "Gününün keyfini çıkar! Hayat muhteşem, ve sen onu daha iyi yapıyorsun!" << "Umarım günün harika geçiyordur! Çünkü hakediyorsun!" << "Umarım bugün senin için harika geçer. İyi olduğun için teşekkürler!" << "Her yeni gün, beraberinde yeni potansiyel ve olasılıklar getirir. Keyfini çıkarmak senin de hakkın!" << "Sabahının keyfini çıkar! Şimdi rahatla ve derin bir nefes al. Unutma, sen muhteşemsin!"
-  end  
+
+  # config.respond_to_phrase "good morning" do |responses|
+    # responses << "Sana da günaydın! Günün harika geçsin! Unutma, sen muhteşemsin!" << "Güzel bir sabah. Ve sen burada olduğun için Dünya daha güzel."<< "Günaydın! Bugün harika bir günü hakediyorsun! Keyfini çıkar!"<< "Sana da harika bir günaydın! Her yeni gün beraberinde yeni fırsatlar getirir. Keyfini çıkar!"<< "Günaydın! Harika olduğun için teşekkürler. Gününün keyfini çıkar!" << "Gününün keyfini çıkar! Hayat muhteşem, ve sen onu daha iyi yapıyorsun!" << "Umarım günün harika geçiyordur! Çünkü hakediyorsun!" << "Umarım bugün senin için harika geçer. İyi olduğun için teşekkürler!" << "Her yeni gün, beraberinde yeni potansiyel ve olasılıklar getirir. Keyfini çıkarmak senin de hakkın!" << "Sabahının keyfini çıkar! Şimdi rahatla ve derin bir nefes al. Unutma, sen muhteşemsin!"
+  # end
 
 end
 
