@@ -25,6 +25,7 @@ Yup!
 * Thanks to [Federico Ravasio](https://github.com/razielgn) for adding Italian support.
 * Thanks to [Bruno Lara Tavares](https://github.com/bltavares) for adding Portugese support.
 * Thanks to [Steen Hulthin Rasmussen](https://github.com/steenhulthin) for adding Danish support.
+* Thanks to [Mats Sigge](https://github.com/matssigge) for adding Swedish support.
 
 For some sad reason, currently having encoding issues, so working on these
 
