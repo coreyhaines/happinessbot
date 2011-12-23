@@ -43,6 +43,10 @@ bot = TweetBot.configure do |config|
   # config.respond_to_phrase "godmorgen" do |responses|
     # responses << "Og en god morgen til dig også! Hav en fantastisk dag i dag! Husk på hvor skøn du er!" << "Det er en god morgen. Og verden er en bedre verden, fordi du er i den."<< "Godmorgen! Du fortjener en fantastisk dag i dag! Nyd den!"<< "Og en vidunderlig dag til dig også! Hver dag åbner nye muligheder. Nyd den!"<< "Godmorgen! Tak fordi du er fantastisk. Nyd din dag!" << "Nyd din dag! Livet er skønt, og du gør det endnu bedre!" << "Jeg håber din dag bliver vidunderlig! Du har fortjent det!" << "Jeg håber dagen i dag bliver vidunderlig for dig. Tak fordi du er pragtfuld!" << "Hver eneste dag har nyt potentiale og nye muligheder. Nyd dem! Du fortjener det." << "Nyd din morgen! Slap af og tag en dyb indånding. Husk du er fantastisk!"
   # end
+  
+  config.respond_to_phrase "good morning" do |responses|
+    responses << "Sana da günaydın! Günün harika geçsin! Unutma, sen muhteşemsin!" << "Güzel bir sabah. Ve sen burada olduğun için Dünya daha güzel."<< "Günaydın! Bugün harika bir günü hakediyorsun! Keyfini çıkar!"<< "Sana da harika bir günaydın! Her yeni gün beraberinde yeni fırsatlar getirir. Keyfini çıkar!"<< "Günaydın! Harika olduğun için teşekkürler. Gününün keyfini çıkar!" << "Gününün keyfini çıkar! Hayat muhteşem, ve sen onu daha iyi yapıyorsun!" << "Umarım günün harika geçiyordur! Çünkü hakediyorsun!" << "Umarım bugün senin için harika geçer. İyi olduğun için teşekkürler!" << "Her yeni gün, beraberinde yeni potansiyel ve olasılıklar getirir. Keyfini çıkarmak senin de hakkın!" << "Sabahının keyfini çıkar! Şimdi rahatla ve derin bir nefes al. Unutma, sen muhteşemsin!"
+  end  
 
 end
 
