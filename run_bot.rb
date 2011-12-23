@@ -42,6 +42,11 @@ bot = TweetBot.configure do |config|
   config.respond_to_phrase "god morgon" do |responses|
     responses << "God morgon själv! Ha en fantastisk dag idag! Kom ihåg hur bra du är!" << "Det är en härlig morgon. Och världen är bättre för att du är här."<< "God morgon! Du förtjänar en fantastisk dag idag. Njut av den!" << "Och en härlig morgon till dig också! Varje dag gryr med nya möjligheter. Njut av den här!"<< "God morgon! Tack för att du är fantastisk. Njut av din dag!" << "Njut av din dag! Livet är härligt, och du gör det ännu bättre!" << "Jag hoppas din dag blir härlig. Det förtjänar du." << "Jag hoppas att idag blir en underbar dag för dig! Tack för att du är så bra!" << "Varje dag ger nya möjligheter. Du förtjänar att njuta av dem!" << "Ha en bra morgon! Slappna av. Andas djupt. Glöm inte bort att du är fantastisk!" << "God morgon! Idag blir en bra dag. Njut av den! Det förtjänar du."
   end
+  
+  config.respond_to_phrase "günaydın" do |responses|
+    responses << "Sana da günaydın! Günün harika geçsin! Unutma, sen muhteşemsin!" << "Güzel bir sabah. Ve sen burada olduğun için Dünya daha güzel."<< "Günaydın! Bugün harika bir günü hakediyorsun! Keyfini çıkar!"<< "Sana da harika bir günaydın! Her yeni gün beraberinde yeni fırsatlar getirir. Keyfini çıkar!"<< "Günaydın! Harika olduğun için teşekkürler. Gününün keyfini çıkar!" << "Gününün keyfini çıkar! Hayat muhteşem, ve sen onu daha iyi yapıyorsun!" << "Umarım günün harika geçiyordur! Çünkü hakediyorsun!" << "Umarım bugün senin için harika geçer. İyi olduğun için teşekkürler!" << "Her yeni gün, beraberinde yeni potansiyel ve olasılıklar getirir. Keyfini çıkarmak senin de hakkın!" << "Sabahının keyfini çıkar! Şimdi rahatla ve derin bir nefes al. Unutma, sen muhteşemsin!"
+  end  
+  
 
   # UTF errors
   # config.respond_to_phrase "good morning" do |responses|
