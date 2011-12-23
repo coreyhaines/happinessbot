@@ -26,10 +26,9 @@ Yup!
 * Thanks to [Bruno Lara Tavares](https://github.com/bltavares) for adding Portugese support.
 * Thanks to [Steen Hulthin Rasmussen](https://github.com/steenhulthin) for adding Danish support.
 * Thanks to [Mats Sigge](https://github.com/matssigge) for adding Swedish support.
-
-For some sad reason, currently having encoding issues, so working on these
-
 * Thanks to [Özkan Altuner](https://github.com/Portakal) for adding Turkish support.
+
+I've run into some issues with encoding errors with the Faraday gem, but it appears they are fixed. I'll keep an eye on this, but, for now, we are doing awesome with languages!
 
 Now, if you want to send me a pull request for your language, I'll add it. You can be famous for making people happy in your favorite language!
 
