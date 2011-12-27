@@ -47,6 +47,9 @@ bot = TweetBot.configure do |config|
     responses << "Sana da günaydın! Günün harika geçsin! Unutma, sen muhteşemsin!" << "Güzel bir sabah. Ve sen burada olduğun için Dünya daha güzel."<< "Günaydın! Bugün harika bir günü hakediyorsun! Keyfini çıkar!"<< "Sana da harika bir günaydın! Her yeni gün beraberinde yeni fırsatlar getirir. Keyfini çıkar!"<< "Günaydın! Harika olduğun için teşekkürler. Gününün keyfini çıkar!" << "Gününün keyfini çıkar! Hayat muhteşem, ve sen onu daha iyi yapıyorsun!" << "Umarım günün harika geçiyordur! Çünkü hakediyorsun!" << "Umarım bugün senin için harika geçer. İyi olduğun için teşekkürler!" << "Her yeni gün, beraberinde yeni potansiyel ve olasılıklar getirir. Keyfini çıkarmak senin de hakkın!" << "Sabahının keyfini çıkar! Şimdi rahatla ve derin bir nefes al. Unutma, sen muhteşemsin!"
   end
 
+config.respond_to_phrase "dzień dobry" do |responses|
+    responses << "Dzień Dobry! Życzę Ci fantastycznego dnia! Pamiętaj jak świetną jesteś osobą!" << "To fantastyczny poranek! A świat jest lepszy, ponieważ Ty tu jesteś!" << "Dzień Dobry! Zasługujesz na fantastyczny dzień! Korzystaj z niego!" << "Życzę Ci wspaniałego dnia, bo każdy otwiera się na Ciebie z nowymi możliwościami. Ciesz się tym." << "Dzień Dobry! Dzięki za to, że jesteś tak świetną osobą. Korzystaj z dna!" << "Ciesz się dniem! Życie jest wspaniałe a Ty sprawiasz, że staje się jeszcze lepsze!" << "Mam nadzieję że masz wspaniały dzień! Zasługujesz na to!" << "Mam nadzieję że dzień Cię rozpieszcza! Dziękuję za to, że jesteś tak fajnym człowiekiem!" << "Każdy dzień niesie za sobą potencjał i nowe możliwości. Ciesz się z tego" << "Rozkoszuj się porankiem! Zrelaksuj się i weź głęboki oddech. Pamiętaj że jesteś świetny!"
+  end
 
   # UTF errors
 end
