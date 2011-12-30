@@ -11,9 +11,6 @@ Currently, we are on the 7th iteration: [@happiness2_u_7](https://twitter.com/#!
 ## How does it work?
 It uses my awesome [tweetbot gem](https://github.com/coreyhaines/tweetbot) to listen for the phrase "Good Morning." Tweetbot gem supports adding a series of reponses that are selected at random. I've chosen a lot of motivating phrases to respond with. I've also set the frequency to 1%. This means that every time "Good Morning" is said on twitter, there is a 1 in 100 chance that happiness bot will say something nice to you. Isn't that nice?
 
-## You want to do something like this?
-Okay. Feel free to add your own phrases. Please make them nice, though. Nobody likes to have mean things said to them.
-
 ## Hey, I notice you are supporting a bunch of languages! Can you support my language?
 Yup!
 
@@ -36,3 +33,7 @@ Now, if you want to send me a pull request for your language, I'll add it. You c
 ## Credits
 
 Thanks a lot to [Kristof Schockaert](https://github.com/mekristof) for helping debug some UTF issues. Awesome community support!
+
+## You want to do something like this?
+Okay. Feel free to add your own phrases. Please make them nice, though. Nobody likes to have mean things said to them.
+
