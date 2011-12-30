@@ -27,6 +27,7 @@ Yup!
 * Thanks to [Steen Hulthin Rasmussen](https://github.com/steenhulthin) for adding Danish support.
 * Thanks to [Mats Sigge](https://github.com/matssigge) for adding Swedish support.
 * Thanks to [Özkan Altuner](https://github.com/Portakal) for adding Turkish support.
+* Thanks to [Daniel Dyba](https://github.com/dyba) for adding Polish support.
 
 I've run into some issues with encoding errors with the Faraday gem, but it appears they are fixed. I'll keep an eye on this, but, for now, we are doing awesome with languages!
 
