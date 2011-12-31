@@ -51,6 +51,10 @@ config.respond_to_phrase "dzień dobry" do |responses|
     responses << "Dzień Dobry! Życzę Ci fantastycznego dnia! Pamiętaj jak świetną jesteś osobą!" << "To fantastyczny poranek! A świat jest lepszy, ponieważ Ty tu jesteś!" << "Dzień Dobry! Zasługujesz na fantastyczny dzień! Korzystaj z niego!" << "Życzę Ci wspaniałego dnia, bo każdy otwiera się na Ciebie z nowymi możliwościami. Ciesz się tym." << "Dzień Dobry! Dzięki za to, że jesteś tak świetną osobą. Korzystaj z dna!" << "Ciesz się dniem! Życie jest wspaniałe a Ty sprawiasz, że staje się jeszcze lepsze!" << "Mam nadzieję że masz wspaniały dzień! Zasługujesz na to!" << "Mam nadzieję że dzień Cię rozpieszcza! Dziękuję za to, że jesteś tak fajnym człowiekiem!" << "Każdy dzień niesie za sobą potencjał i nowe możliwości. Ciesz się z tego" << "Rozkoszuj się porankiem! Zrelaksuj się i weź głęboki oddech. Pamiętaj że jesteś świetny!"
   end
 
+  config.respond_to_phrase "בוקר טוב" do |responses|
+    responses << "בוקר טוב! שיהיה לך יום נהדר! אל תשכח שאתה אדיר!" << "אכן בוקר טוב. והעולם מגניב יותר כי אתה כאן" << "בוקר טוב! מגיע לך יום נהדר היום! תהנה!" << "ובוקר נהדר גם לך! כל יום מגיע עם אפשרויות חדשות" << "בוקר טוב! תודה שאתה אדיר! תהנה מהיום!" << "שיהיה לך יום טוב! החיים נהדרים, ואתה עושה אותם טובים יותר!" << "אני מקווה שיהיה לך יום נהדר! הרווחת אותו!"
+  end
+
   # UTF errors
 end
 
