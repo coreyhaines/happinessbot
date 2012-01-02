@@ -14,18 +14,18 @@ It uses my awesome [tweetbot gem](https://github.com/coreyhaines/tweetbot) to li
 ## Hey, I notice you are supporting a bunch of languages! Can you support my language?
 Yup!
 
-* Thanks to [Franck Verrot](https://github.com/cesario) for adding French support.
-* Thanks to [Björn Rochel](https://github.com/BjRo) for adding German support.
-* Thanks to [Gamaliel A. Toro Herrera](https://github.com/argami) for adding Spanish support.
-* Thanks to [Kristof Schockaert](https://github.com/mekristof) for adding Dutch support.
-* Thanks to [Amit Kumar](https://github.com/toamitkumar) for adding Hindi support.
-* Thanks to [Federico Ravasio](https://github.com/razielgn) for adding Italian support.
-* Thanks to [Bruno Lara Tavares](https://github.com/bltavares) for adding Portugese support.
-* Thanks to [Steen Hulthin Rasmussen](https://github.com/steenhulthin) for adding Danish support.
-* Thanks to [Mats Sigge](https://github.com/matssigge) for adding Swedish support.
-* Thanks to [Özkan Altuner](https://github.com/Portakal) for adding Turkish support.
-* Thanks to [Daniel Dyba](https://github.com/dyba) for adding Polish support.
-* Thanks to [Aviv Ben-Yosef](https://github.com/abyx) and [Yoni Tsafir](https://github.com/theyonibomber) for adding Hebrew support.
+1. Thanks to [Franck Verrot](https://github.com/cesario) for adding French support.
+2. Thanks to [Björn Rochel](https://github.com/BjRo) for adding German support.
+3. Thanks to [Gamaliel A. Toro Herrera](https://github.com/argami) for adding Spanish support.
+4. Thanks to [Kristof Schockaert](https://github.com/mekristof) for adding Dutch support.
+5. Thanks to [Amit Kumar](https://github.com/toamitkumar) for adding Hindi support.
+6. Thanks to [Federico Ravasio](https://github.com/razielgn) for adding Italian support.
+7. Thanks to [Bruno Lara Tavares](https://github.com/bltavares) for adding Portugese support.
+8. Thanks to [Steen Hulthin Rasmussen](https://github.com/steenhulthin) for adding Danish support.
+9. Thanks to [Mats Sigge](https://github.com/matssigge) for adding Swedish support.
+10. Thanks to [Özkan Altuner](https://github.com/Portakal) for adding Turkish support.
+11. Thanks to [Daniel Dyba](https://github.com/dyba) for adding Polish support.
+12. Thanks to [Aviv Ben-Yosef](https://github.com/abyx) and [Yoni Tsafir](https://github.com/theyonibomber) for adding Hebrew support.
 
 I've run into some issues with encoding errors with the Faraday gem, but it appears they are fixed. I'll keep an eye on this, but, for now, we are doing awesome with languages!
 
