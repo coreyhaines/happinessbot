@@ -8,8 +8,8 @@ You can also find out more about happiness bot by watching my lightning talk fro
 ## Where is HAPPINESSBOT on twitter?
 Currently, we are running 2 copies of the happiness bot.
 
-# [@happiness2_u_7](https://twitter.com/#!/happiness2_u_7)
-# [@happiness2_u_8](https://twitter.com/#!/happiness2_u_8)
+- [@happiness2_u_7](https://twitter.com/#!/happiness2_u_7)
+- [@happiness2_u_8](https://twitter.com/#!/happiness2_u_8)
 
 ## How does it work?
 It uses my awesome [tweetbot gem](https://github.com/coreyhaines/tweetbot) to listen for the phrase "Good Morning." Tweetbot gem supports adding a series of reponses that are selected at random. I've chosen a lot of motivating phrases to respond with. I've also set the frequency to 1%. This means that every time "Good Morning" is said on twitter, there is a 1 in 100 chance that happiness bot will say something nice to you. Isn't that nice?
