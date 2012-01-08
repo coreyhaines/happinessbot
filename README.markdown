@@ -26,6 +26,7 @@ Yup!
 10. Thanks to [Özkan Altuner](https://github.com/Portakal) for adding Turkish support.
 11. Thanks to [Daniel Dyba](https://github.com/dyba) for adding Polish support.
 12. Thanks to [Aviv Ben-Yosef](https://github.com/abyx) and [Yoni Tsafir](https://github.com/theyonibomber) for adding Hebrew support.
+13. Thanks to [Bassam Mehanni](https://github.com/bmehanni) for adding Arabic support.
 
 I've run into some issues with encoding errors with the Faraday gem, but it appears they are fixed. I'll keep an eye on this, but, for now, we are doing awesome with languages!
 
