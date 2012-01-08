@@ -40,5 +40,8 @@ Now, if you want to send me a pull request for your language, I'll add it. You c
 Thanks a lot to [Kristof Schockaert](https://github.com/mekristof) for helping debug some UTF issues. Awesome community support!
 
 ## You want to do something like this?
-Okay. Feel free to add your own phrases. Please make them nice, though. Nobody likes to have mean things said to them.
+What a great idea. You can either fork this project or start your own based on it. Feel free to add your own phrases. Please make them nice, though. Nobody likes to have mean things said to them.
 
+HappinessBot, though, is dedicated to responding to people saying Good Morning. If you make your own, please let me know.
+
+For more information, check out the [TweetBot Gem](https://github.com/coreyhaines/tweetbot).
