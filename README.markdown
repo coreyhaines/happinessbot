@@ -16,7 +16,7 @@ Yup!
 
 1. Thanks to [Franck Verrot](https://github.com/cesario) for adding French support.
 2. Thanks to [Björn Rochel](https://github.com/BjRo) for adding German support.
-3. Thanks to [Gamaliel A. Toro Herrera](https://github.com/argami) for adding Spanish support.
+3. *Currently disabled due to encoding errors. see below* Thanks to [Gamaliel A. Toro Herrera](https://github.com/argami) for adding Spanish support.
 4. Thanks to [Kristof Schockaert](https://github.com/mekristof) for adding Dutch support.
 5. Thanks to [Amit Kumar](https://github.com/toamitkumar) for adding Hindi support.
 6. Thanks to [Federico Ravasio](https://github.com/razielgn) for adding Italian support.
