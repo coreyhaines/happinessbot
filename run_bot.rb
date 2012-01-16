@@ -59,6 +59,10 @@ config.respond_to_phrase "dzień dobry" do |responses|
   # config.respond_to_phrase "buenos días" do |responses|
     # responses << "¡Buenos días para ti tambien! ¡Que tengas un fantastico día! ¡Recuerda lo asombroso que eres!" << "Son buenos días. Y el mundo es mejor porque estás en el."<< "Buenos Días! ¡Te mereces un fantastico día! ¡Disfruta!"<< "¡Una increible mañana para ti tambien! Cada día trae nuevas posibilidades. ¡Disfruta!"<< "¡Buenos Días! Gracias por ser genial. ¡Disfruta de tu día!" << "¡Disfruta ru día! ¡La vida es maravillosa, y tu la hace aún mejor!" << "¡Espero que tu día sea maravilloso! ¡Te lo mereces!" << "Espero que hoy sea un increíble día para ti. ¡Gracias por ser genial!" << "Cada día tiene nuevo potencial y posibilidades. ¡Mereces disfrutarlas!" << "¡Disfruta de tu mañana! Relajate y respira profundo. ¡Recuerda que eres asombroso!"
   # end
+
+  config.respond_to_phrase "доброе утро" do |responses|
+    responses << "И тебе доброе утро! Желаю фантастического дня! Помни, ты замечательный человек!" << "Это хорошее утро. И мир становится лучше оттого, что ты здесь." << "Доброе утро! Ты заслуживаешь фантастического дня! Наслаждайся!" << "И тебе чудесного утра! Каждый день дарит новые возможности. Наслаждайся!" << "Доброе утро! Спасибо, что ты такой замечательный человек. Наслаждайся своим днём!" << "Наслаждайся этим днём! Жизнь прекрасна, и ты делаешь её ещё лучше!" << "Пусть твой сегодняшний день будет потрясающим! Ты этого заслуживаешь!" << "Желаю тебе чудесного дня. Спасибо, что ты такой хороший человек!" << "Каждый день даёт новый потенциал и возможности. Ты заслуживаешь наслаждаться ими!" << "Наслаждайся этим утром! Расслабься и глубоко вдохни. Помни, ты замечательный человек!"
+  end
 end
 
 bot.talk
