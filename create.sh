@@ -1,9 +1,9 @@
 #!/bin/bash
-ITERATION=13
-APP_INDEX=7
+ITERATION=14
+APP_INDEX=8
 CONSUMER_KEY=
 CONSUMER_SECRET=
-OAUTH_TOKEN=
+OAUTH_TOKEN=""
 OAUTH_SECRET=
 heroku create hb$APP_INDEX -r bot_$ITERATION --stack cedar --addons apigee:basic
 heroku addons:upgrade logging:expanded --app hb$APP_INDEX
