@@ -63,11 +63,15 @@ config.respond_to_phrase "dzień dobry" do |responses|
   config.respond_to_phrase "доброе утро" do |responses|
     responses << "И тебе доброе утро! Желаю фантастического дня! Помни, ты замечательный человек!" << "Это хорошее утро. И мир становится лучше оттого, что ты здесь." << "Доброе утро! Ты заслуживаешь фантастического дня! Наслаждайся!" << "И тебе чудесного утра! Каждый день дарит новые возможности. Наслаждайся!" << "Доброе утро! Спасибо, что ты такой замечательный человек. Наслаждайся своим днём!" << "Наслаждайся этим днём! Жизнь прекрасна, и ты делаешь её ещё лучше!" << "Пусть твой сегодняшний день будет потрясающим! Ты этого заслуживаешь!" << "Желаю тебе чудесного дня. Спасибо, что ты такой хороший человек!" << "Каждый день даёт новый потенциал и возможности. Ты заслуживаешь наслаждаться ими!" << "Наслаждайся этим утром! Расслабься и глубоко вдохни. Помни, ты замечательный человек!"
   end
-  
-    config.respond_to_phrase "habari ya asubuhi" do |responses|
+
+  config.respond_to_phrase "habari ya asubuhi" do |responses|
     responses << "Habari yako. Kuwa na Siku njema!" << " Kuwa na siku yenye furaha."<< "Siku isiyokuwa na bugthaa yoyote!!"
   end
-  
+
+  config.respond_to_phrase "bună dimineaţa" do |responses|
+    responses << "Bună dimineaţă, tie! Sa ai o zi fantastica astazi! Aminteste-ti cat de minunată esti!" << "E o dimineaţă buna. Si lumea e mai bună pentru ca tu esti aici." << "Bună dimineaţă! Meriti o zi fantastica astazi! Bucura-te de ea!" << "Sa ai o dimineaţă minunată si tu! Fiecare zi deschide noi posibilitati. Bucura-te de elemente." << "Bună dimineaţă! Multumesc pentru ca esti minunată. Bucura-te de ziua de azi." << "Bucura-te de astazi! Viata e minunată, iar tu o faci si mai mult de atat." << "Sper ca azi e o zi minunată pentru tine! O meriti!" << "Sper ca azi e o zi minunată pentru tine. Mersi pentru ca esti minunată!" << "Fiecare zi are nou potenţial si noi posibilitati. Meriti sa te bucuri de elemente." << "Bucura-te de dimineaţă aceasta! Relaxeaza-te si inspira aer adanc in piept. Aminteste-ti ca esti minunată!"
+  end
+
 end
 
 bot.talk
