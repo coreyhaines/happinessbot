@@ -32,6 +32,7 @@ Yup!
 16. Thanks to [Steve Wiggins](https://github.com/swiggin1) for adding Romanian support.
 17. Thanks to [Kristof Schockaert's friend Michael Van Der Schyff](https://github.com/mekristof) for adding African support.
 18. Thanks to [Hiro Asari](https://github.com/BanzaiMan) for adding Japanese support.
+19. Thanks to [Sascha Weave](https://twitter.com/wzyboy) for adding Chinese support.
 
 I've run into some issues with encoding errors with the Faraday gem, but it appears they are fixed. I'll keep an eye on this, but, for now, we are doing awesome with languages!
 
