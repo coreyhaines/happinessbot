@@ -71,6 +71,10 @@ config.respond_to_phrase "dzień dobry" do |responses|
   config.respond_to_phrase "bună dimineaţa" do |responses|
     responses << "Bună dimineaţă, tie! Sa ai o zi fantastica astazi! Aminteste-ti cat de minunată esti!" << "E o dimineaţă buna. Si lumea e mai bună pentru ca tu esti aici." << "Bună dimineaţă! Meriti o zi fantastica astazi! Bucura-te de ea!" << "Sa ai o dimineaţă minunată si tu! Fiecare zi deschide noi posibilitati. Bucura-te de elemente." << "Bună dimineaţă! Multumesc pentru ca esti minunată. Bucura-te de ziua de azi." << "Bucura-te de astazi! Viata e minunată, iar tu o faci si mai mult de atat." << "Sper ca azi e o zi minunată pentru tine! O meriti!" << "Sper ca azi e o zi minunată pentru tine. Mersi pentru ca esti minunată!" << "Fiecare zi are nou potenţial si noi posibilitati. Meriti sa te bucuri de elemente." << "Bucura-te de dimineaţă aceasta! Relaxeaza-te si inspira aer adanc in piept. Aminteste-ti ca esti minunată!"
   end
+  
+  config.respond_to_phrase "おはよう" do |responses|
+    responses << "おはようございます。清々しい朝ですね。きっと素晴らしい一日になるでしょう！" << "おはようございます。今日も一日素敵なあなたでいて下さい。" << "おはようございます。実り多い一日になるでしょう。" << "今日のあなたはいつもよりも輝いていますね。ありがとうございます。"
+  end
 
 end
 
