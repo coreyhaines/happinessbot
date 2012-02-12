@@ -6,7 +6,7 @@ total_followers_count = 0
 total_statuses_count = 0
 
 puts "Name\t\tFollowers\tStatuses Start Date"
-7.upto(15) do |index|
+7.upto(12) do |index|
   name = "happiness2_u_#{index}"
   u = Twitter.user(name)
   followers_count = u.followers_count
