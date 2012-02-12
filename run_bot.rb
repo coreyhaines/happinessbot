@@ -83,10 +83,14 @@ config.respond_to_phrase "dzień dobry" do |responses|
   config.respond_to_phrase "早安" do |responses|
     responses << "早安！一天好心情哟！记住自己有多棒！" << "早上好！真是个美好的早晨！世界因你而更美好！"<< "早上好！你今天一定会很好！好好享受吧！"<< "早上好！每天都有新可能、新挑战！享受吧！"<< "早上好！你很棒，享受你的生活吧！" << "早上好！祝你今日愉快！生活很美好，你可以使它更美好！" << "早上好！祝你今日很精彩~" << "早上好！希望今天对你很精彩！你很棒哟！" << "早上好！每天都有新挑战、新可能，你应该享受你的生活，勇敢地迎接它们！" << "早上好！享受这个美好的早晨吧，放松，深呼吸，记住你是最棒的！" << "早安！一日之计在于晨哦！" << "早上好！新的一天，要充满活力和激情去迎接新的挑战！" << "早睡早起，方能养生~"
   end
-  
+
   config.respond_to_phrase "Jó reggelt" do |responses|
       responses << "Neked is jó reggelt, legyen fantasztikus napod! Emlékezz, milyen nagyszerű vagy!" << "Ez egy csodás reggel. A világ jobbá válik általad." << "Jó reggelt! Megérdemled, hogy fantasztikus napod legyen, élvezd!" << "Neked is legyen csodás a reggeled! Minden nap új lehetőséged tartogat. Élvezd!" << "Jó reggelt! Köszönöm, hogy ilyen csodálatos vagy. Legyen szép napod!" << "Legyen szép napod! Az élet nagyszerű és általad még nagyszerűbbé válik." << "Remélem, gyönyörű napod van ma, megérdemled." << "Remélem, csodás a mai napod. Köszönöm, hogy ilyen nagyszerű vagy." << "Minden nap új esélyt és lehetőséget tartogat. Megérdemled, hogy kiélvezd." << "Élvezd a reggelt! Élvezd, és végy egy mély lélegzetet. Emlékezz, milyen nagyszerű is vagy."
-    end
+  end
+
+  config.respond_to_phrase "อรุณสวัสดิ์" do |responses|
+    responses << "อรุณสวัสดิ์ ขอให้วันนี้เป็นวันที่ดีของคุณ" << "สวัสดีตอนเช้า ทานข้าวด้วยนะ"<< "อรุณสวัสดิ์ค่ะ ทำวันนี้ให้ดีที่สุดนะ"<< "สวัสดีตอนเช้า แวะมาเติมกำลังใจให้ค่ะ"<< "อรุณสวัสดิ์ ทำวันนี้ให้ดีกว่าเมื่อวานนะค่ะ สู้ๆ" << "อรุณสวัสดิ์ วันนี้เป็นวันของคุณ สนุกกับมัน" << "อรุณสวัสดิ์ค่ะ ทักทายตอนเช้า อากาศดีๆ" << "อรุณสวัสดิ์ เช้านี้คุณเริ่มทำสิ่งที่ดีๆแล้วหรือยัง" << "อรุณสวัสดิ์ ยิ้มรับวันใหม่ที่สดใสสวยงามนะจ๊ะ" << "สวัสดีตอนเช้า เช้าที่สดใสกับจิตใจที่สดชื่น"
+  end
 end
 
 bot.talk
