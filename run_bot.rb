@@ -76,6 +76,10 @@ config.respond_to_phrase "dzień dobry" do |responses|
     responses << "En 'n goeie môre vir jou! Mag jy 'n fantastiese dag hê. Onthou hoe ongelooflik jy is!" << "Dit is 'n goeie oggend. En die wêreld is beter want jy is hier!" << "Goeie môre! Jy verdien 'n fantastiese dag vandag! Geniet!" << "En 'n wonderlike oggend vir jou ook! Elke dag begin met nuwe moontlikhede. Geniet!" << "Goeie môre! Dankie dat jy so ongelooflik is. Geniet jou dag!" << "Geniet jou dag. Die lewe is goed, en jy maak dit selfs beter!" << "Ek hoop jou dag is wonderlik! Jy verdien dit!" << "Ek hoop vandag is wonderlik vir jou. Dankie dat jy so wonderlik is!" << "Elke dag het nuwe potensiaal en moontlikhede. Jy verdien om dit te geniet!" << "Geniet jou oggend! Sit terug en haal diep asem. Onthou jy is ongelooflik!"
   end
 
+  config.respond_to_phrase "hyvää huomenta" do |responses|
+    responses << "Ja hyvää huomenta sinullekin! Olkoon tänään fantastinen päivä! Muista, kuinka mahtava olet!" << "On hyvä aamu. Ja maailma on parempi, koska sinä olet täällä."<< "Hyvää Huomenta! Ansaitset fantastisen päivän tänään! Nauti!"<< "Ja ihanaa aamua myös sinullekin! Joka päivä alkaa uusilla mahdollisuuksilla. Nauti!"<< "Hyvää Huomenta! Kiitos, kun olet mahtava. Nauti päivästäsi!" << "Nauti päivästäsi! Elämä on hienoa, ja sinä teet siitä vielä parempaa!" << "Toivon, että päiväsi on tänään ihana! Sinä ansaitset sen!" << "Toivon, että tämä päivä on ihana sinulle. Kiitos, että olet hieno!" << "Jokaisella päivällä on uutta potentiaalia ja uusia mahdollisuuksia. Sinä ansaitset nauttia niistä!" << "Nauti aamustasi! Rentoudu ja vedä syvään henkeä. Muista, että olet mahtava!"
+  end
+
   config.respond_to_phrase "おはよう" do |responses|
     responses << "おはようございます。清々しい朝ですね。きっと素晴らしい一日になるでしょう！" << "おはようございます。今日も一日素敵なあなたでいて下さい。" << "おはようございます。実り多い一日になるでしょう。" << "今日のあなたはいつもよりも輝いていますね。ありがとうございます。"
   end
