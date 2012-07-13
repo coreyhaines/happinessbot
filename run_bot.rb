@@ -97,4 +97,8 @@ config.respond_to_phrase "dzień dobry" do |responses|
   end
 end
 
+ config.respond_to_phrase "selamat pagi" do |responses|
+    responses << "Selamat pagi juga untuk anda. Semoga hari ini lebih indah dari hari kelmarin :)" << "Selamat pagi juga untuk anda. Sudahkah anda bersedia untuk hari yang indah ini?"<< "Selamat pagi juga. Semoga bergembira pada hari yang indah ini."<< "Selamat pagi. Setiap hari merupakan peluang untuk menuju kejayaan. Semoga berjaya!"<< "Selamat pagi. Anda adalah seorang yang hebat. Semoga bergembira." << "Semoga bergembira pada pagi yang indah ini. Ingatlah, anda seorang yang hebat"
+  end
+
 bot.talk
