@@ -36,6 +36,7 @@ Yup!
 20. Thanks to [Kridsanapong Wongthongdee](https://twitter.com/golfiti) for adding Thai support.
 21. Thanks to [Kristof Schockaert's friend Sophie Van Damme](https://github.com/mekristof) for adding Hungarian support.
 21. Thanks to [Jan Tuovinen](https://twitter.com/janmeeba) for adding Finnish support.
+22. Thanks to [Mohamad Fadhil](https://twitter.com/sdil) for adding Malaysian support.
 
 I've run into some issues with encoding errors with the Faraday gem, but it appears they are fixed. I'll keep an eye on this, but, for now, we are doing awesome with languages!
 
