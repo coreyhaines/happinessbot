@@ -95,10 +95,12 @@ config.respond_to_phrase "dzień dobry" do |responses|
   config.respond_to_phrase "อรุณสวัสดิ์" do |responses|
     responses << "อรุณสวัสดิ์ ขอให้วันนี้เป็นวันที่ดีของคุณ" << "สวัสดีตอนเช้า ทานข้าวด้วยนะ"<< "อรุณสวัสดิ์ค่ะ ทำวันนี้ให้ดีที่สุดนะ"<< "สวัสดีตอนเช้า แวะมาเติมกำลังใจให้ค่ะ"<< "อรุณสวัสดิ์ ทำวันนี้ให้ดีกว่าเมื่อวานนะค่ะ สู้ๆ" << "อรุณสวัสดิ์ วันนี้เป็นวันของคุณ สนุกกับมัน" << "อรุณสวัสดิ์ค่ะ ทักทายตอนเช้า อากาศดีๆ" << "อรุณสวัสดิ์ เช้านี้คุณเริ่มทำสิ่งที่ดีๆแล้วหรือยัง" << "อรุณสวัสดิ์ ยิ้มรับวันใหม่ที่สดใสสวยงามนะจ๊ะ" << "สวัสดีตอนเช้า เช้าที่สดใสกับจิตใจที่สดชื่น"
   end
-end
 
- config.respond_to_phrase "selamat pagi" do |responses|
+  config.respond_to_phrase "selamat pagi" do |responses|
     responses << "Selamat pagi juga untuk anda. Semoga hari ini lebih indah dari hari kelmarin :)" << "Selamat pagi juga untuk anda. Sudahkah anda bersedia untuk hari yang indah ini?"<< "Selamat pagi juga. Semoga bergembira pada hari yang indah ini."<< "Selamat pagi. Setiap hari merupakan peluang untuk menuju kejayaan. Semoga berjaya!"<< "Selamat pagi. Anda adalah seorang yang hebat. Semoga bergembira." << "Semoga bergembira pada pagi yang indah ini. Ingatlah, anda seorang yang hebat"
   end
+
+end
+
 
 bot.talk
