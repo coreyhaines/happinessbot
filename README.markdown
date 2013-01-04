@@ -1,7 +1,7 @@
 # HAPPINESSBOT!
 
 ## What is it?
-This is the source for my ongoing run of awesome happiness-inspiring twitter bots. They are very simple. Listen for someone to say "Good Morning" and then tweet something wonderful to them. That's it. Very easy. Since December of 2011, the HappinessBot network has tweeted happy thoughts to nearly 2 Million people!
+This is the source for my ongoing run of awesome happiness-inspiring twitter bots. They are very simple. Listen for someone to say "Good Morning" and then tweet something wonderful to them. That's it. Very easy. Since December of 2011, the HappinessBot network has tweeted happy thoughts to over 2 Million people!
 
 You can also find out more about happiness bot by watching my lightning talk from [RubyConf 2011](http://confreaks.net/videos/741-rubyconf2011-lightning-talks?player=html5). My talk starts at 21:45. You'll love it!
 
