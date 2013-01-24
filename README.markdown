@@ -30,7 +30,7 @@ Yup!
 14. Thanks to [Andrey Hitrin](https://github.com/ahitrin) for adding Russian support.
 15. Thanks to [David Maina](https://github.com/dauti) for adding Swahili support.
 16. Thanks to [Steve Wiggins](https://github.com/swiggin1) for adding Romanian support.
-17. Thanks to [Kristof Schockaert's friend Michael Van Der Schyff](https://github.com/mekristof) for adding African support.
+17. Thanks to [Kristof Schockaert's friend Michael Van Der Schyff](https://github.com/mekristof) for adding Afrikaans support.
 18. Thanks to [Hiro Asari](https://github.com/BanzaiMan) for adding Japanese support.
 19. Thanks to [Sascha Weave](https://twitter.com/wzyboy) for adding Chinese support.
 20. Thanks to [Kridsanapong Wongthongdee](https://twitter.com/golfiti) for adding Thai support.
