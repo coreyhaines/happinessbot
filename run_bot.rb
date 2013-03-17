@@ -104,6 +104,18 @@ config.respond_to_phrase "dzień dobry" do |responses|
     responses << "At magandang umaga sa iyo! Nawa'y maging maganda ang iyong araw ngayon! Lagi mo tandaan, magaling ka!" << "Ang umaga ay maganda, at lalong gumanda ng dahil sa iyo." << "Magandang umaga! Sana ay maganda ang araw na ito para sa iyo! Ingat!" << "At magandang umaga rin sa iyo! Bawat araw ay puno ng pag-asa. Ingat!" << "Magandang umaga! Salamat sa pagiging magaling mo. Sana masaya araw mo!" << "Sana masaya araw mo! Masarap mabuhay at mas lalong pinasarap ng dahil sa iyo!" << "Sana maging masaya ang araw mo ngayon! Dapat lang!" << "Sana maging masaya ang araw mo ngayon. Salamat sa pagiging mahusay!" << "Bawat araw ay puno ng pag-asa at posibilidad. Dapat lang na magpakasaya ka!" << "Namnamin mo ang iyong umaga! Huminga ng malalim at magpasalamat. Tandaan mo, mahusay ka!"
   end
 
+  config.respond_to_phrase "صب بخیر" do |responses|
+    responses << "صبح شما هم بخیر! روز عالی‌یی داشته باشی! یادت نره چقد شاخی!" \
+    << "صبح خوبیه. دنیا جای بهتری‌ه چون شما اینجایی.." \
+    << "صب بخیر! شما لایق یه روز فوق‌العاده‌ای! خوش بگذره!" \
+    << "یه صبح خیلی خوب هم برای شما! هر روز گشایشی برای موقعیت‌های تازه‌س! لذت ببر!" \
+    << "صب بخیر! مرسی ازین‌که انقد شاخی.. روزت خوش!" \
+    << "روز خوبی داشته باشی.. زندگی خوبه، تو هم بهترش می‌کنی!" \
+    << "امیدوارم امروز روزت خوب باشه! تو لیاقتش رو داری!" \
+    << "امیدوارم امروز عالی باشه برات.. مرسی ازین‌که انقد خوبی!" \
+    << "هر روز پر از پتانسیل و موقعیت خوب‌ه.. تو لیاقت لذت بردن ازشون رو داری!" \
+    << "از صبح‌ت لذت ببر! آروم باش و نفس عمیق بکش.. یادت باشه خیلی شاخی!"
+  end
 end
 
 
