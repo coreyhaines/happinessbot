@@ -108,18 +108,20 @@ bot = TweetBot.configure do |config|
     responses << "At magandang umaga sa iyo! Nawa'y maging maganda ang iyong araw ngayon! Lagi mo tandaan, magaling ka!" << "Ang umaga ay maganda, at lalong gumanda ng dahil sa iyo." << "Magandang umaga! Sana ay maganda ang araw na ito para sa iyo! Ingat!" << "At magandang umaga rin sa iyo! Bawat araw ay puno ng pag-asa. Ingat!" << "Magandang umaga! Salamat sa pagiging magaling mo. Sana masaya araw mo!" << "Sana masaya araw mo! Masarap mabuhay at mas lalong pinasarap ng dahil sa iyo!" << "Sana maging masaya ang araw mo ngayon! Dapat lang!" << "Sana maging masaya ang araw mo ngayon. Salamat sa pagiging mahusay!" << "Bawat araw ay puno ng pag-asa at posibilidad. Dapat lang na magpakasaya ka!" << "Namnamin mo ang iyong umaga! Huminga ng malalim at magpasalamat. Tandaan mo, mahusay ka!"
   end
 
-  config.respond_to_phrase "صب بخیر" do |responses|
-    responses << "صبح شما هم بخیر! روز عالی‌یی داشته باشی! یادت نره چقدر خوبی!" \
-    << "صبح خوبیه. دنیا جای بهتری هست چون تو توش هستی.." \
-    << "صبح بخیر! شما لایق یه روز فوق‌العاده هستی! خوش بگذره!" \
-    << "صبح شما هم بخیر! هر روز گشایشی برای موقعیت‌های تازه‌س! لذت ببر!" \
-    << "صب بخیر! مرسی ازین‌که انقدر خوبی.. روز خوبی داشته باشی!" \
-    << "روز خوبی داشته باشی.. زندگی خوبه، تو هم با بودنت بهترش می‌کنی!" \
-    << "امیدوارم امروز، روز خوبی داشته باشی! تو لیاقتش رو داری!" \
-    << "امیدوارم امروز عالی باشه برات.. مرسی ازین‌که انقد خوبی!" \
-    << "هر روز پر از فرصت و موقعیت‌های خوب‌ هست.. تو لیاقت لذت بردن از روزهات رو داری!" \
-    << "از صبح‌ت لذت ببر! آروم باش و نفس عمیق بکش.. یادت باشه فوق‌العاده‌ای!"
-  end
+  persian_responses = [] << "صبح شما هم بخیر! روز عالی‌یی داشته باشی! یادت نره چقدر خوبی!" \
+  << "صبح خوبیه. دنیا جای بهتری هست چون تو توش هستی.." \
+  << "صبح بخیر! شما لایق یه روز فوق‌العاده هستی! خوش بگذره!" \
+  << "صبح شما هم بخیر! هر روز گشایشی برای موقعیت‌های تازه‌س! لذت ببر!" \
+  << "صب بخیر! مرسی ازین‌که انقدر خوبی.. روز خوبی داشته باشی!" \
+  << "روز خوبی داشته باشی.. زندگی خوبه، تو هم با بودنت بهترش می‌کنی!" \
+  << "امیدوارم امروز، روز خوبی داشته باشی! تو لیاقتش رو داری!" \
+  << "امیدوارم امروز عالی باشه برات.. مرسی ازین‌که انقد خوبی!" \
+  << "هر روز پر از فرصت و موقعیت‌های خوب‌ هست.. تو لیاقت لذت بردن از روزهات رو داری!" \
+  << "از صبح‌ت لذت ببر! آروم باش و نفس عمیق بکش.. یادت باشه فوق‌العاده‌ای!"
+
+  config.add_responses_for_phrase("صب بخیر", *persian_responses)
+  config.add_responses_for_phrase("صبح بخیر", *persian_responses)
+
 end
 
 
