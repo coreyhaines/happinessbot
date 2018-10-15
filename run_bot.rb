@@ -120,6 +120,10 @@ bot = TweetBot.configure do |config|
     << "هر روز پر از فرصت و موقعیت‌های خوب‌ هست.. تو لیاقت لذت بردن از روزهات رو داری!" \
     << "از صبح‌ت لذت ببر! آروم باش و نفس عمیق بکش.. یادت باشه فوق‌العاده‌ای!"
   end
+  
+  config.respond_to_phrase "bon dia" do |responses|
+    responses << "I un bon dia per a tu! Gaudeix d'un dia fantàstic avui! Recorda el que ets increïble!" << "És un bon dia. I el món és millor perquè sou aquí." << "Bon dia, mereixeu un fantàstic dia! Gaudeix!" << "I un meravellós dia per a tu també, cada dia s'obre amb noves possibilitats. Gaudeix!" << "Bon dia! Gràcies per ser increïble. Gaudeix del teu dia." << "Gaudeix del teu dia! La vida és fantàstica, i ho fa encara millor!" << "Espero que el dia d'avui sigui meravellós! Us ho mereixeu!" << "Espero que avui sigui meravellós. Gràcies per ser genial!" << "Cada dia té un nou potencial i possibilitats. Us mereixeu gaudir-ne!" << "Gaudeix del teu matí! Relaxa't i respireu profundament. Recorda que ets increïble!"
+  end
 end
 
 
