@@ -1,7 +1,6 @@
 source "http://rubygems.org"
-ruby '1.9.3'
-gem "tweetbot", "0.3.0"
-
+ruby '2.7.0'
+gem "tweetbot", "0.4.0"
 
 group "development", "test" do
   gem 'rspec'
