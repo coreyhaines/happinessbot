@@ -9,7 +9,7 @@ You can also find out more about happiness bot by watching my lightning talk fro
 You can see what a running HappinessBot looks like at [@GoodMorningToY9](https://twitter.com/GoodMorningToY9).
 
 ## How does it work?
-It uses my awesome [tweetbot gem](https://github.com/coreyhaines/tweetbot) to listen for the phrase "Good Morning." Tweetbot gem supports adding a series of reponses that are selected at random. I've chosen a lot of motivating phrases to respond with. I've also set the frequency to 1%. This means that every time "Good Morning" is said on twitter, there is a 1 in 100 chance that HappinessBot will say something nice to you. Isn't that nice?
+It uses my awesome [tweetbot gem](https://github.com/coreyhaines/tweetbot) to listen for the phrase "Good Morning." Tweetbot gem supports adding a series of reponses that are selected at random. I've chosen a lot of motivating phrases to respond with. I've also set the frequency to 0.5%. This means that every time "Good Morning" is said on twitter, there is a 0.5 in 100 chance that HappinessBot will say something nice to you. Isn't that nice?
 
 ## Hey, I notice you are supporting a bunch of languages! Can you support my language?
 Yup!
