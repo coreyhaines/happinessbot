@@ -39,7 +39,7 @@ Yup!
 22. Thanks to [Mohamad Fadhil](https://twitter.com/sdil) for adding Malaysian support.
 23. Thanks to [Rino Mardo](https://twitter.com/rino19ny) for adding Tagalog support.
 24. Thanks to [Chip Castle](https://twitter.com/chipcastle) for adding Czech support.
-25. Thanks to [Nima Johari](https://github.com/johari) for adding Farsi support.
+25. Thanks to [Nima Johari](https://github.com/johari) and [Hadi Moshayedi](https://github.com/pykello) for adding Farsi support.
 
 I've run into some issues with encoding errors with the Faraday gem, but it appears they are fixed. I'll keep an eye on this, but, for now, we are doing awesome with languages!
 
