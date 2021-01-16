@@ -101,7 +101,7 @@ bot = TweetBot.configure do |config|
   end
 
   config.respond_to_phrase "selamat pagi" do |responses|
-    responses << "Selamat pagi juga untuk anda. Semoga hari ini lebih indah dari hari kemarin :)" << "Selamat pagi juga untuk anda. Sudahkah anda bersedia untuk hari yang indah ini?"<< "Selamat pagi juga. Semoga bergembira pada hari yang indah ini."<< "Selamat pagi. Setiap hari merupakan peluang untuk menuju kejayaan. Semoga berjaya!"<< "Selamat pagi. Anda adalah seorang yang hebat. Semoga bergembira." << "Semoga bergembira pada pagi yang indah ini. Ingatlah, anda seorang yang hebat"
+    responses << "Selamat pagi juga untuk anda. Semoga hari ini lebih indah dari hari kemarin :)" << "Selamat pagi juga untuk anda. Sudahkah anda bersedia untuk hari yang indah ini?"<< "Selamat pagi juga. Semoga bergembira pada hari yang indah ini."<< "Selamat pagi. Setiap hari merupakan peluang untuk menuju kejayaan. Semoga berjaya!"<< "Selamat pagi. Anda adalah seorang yang hebat. Semoga bergembira." << "Semoga bergembira pada pagi yang indah ini. Ingatlah, anda seorang yang hebat"<< "Pagi... selaat beraktifitas & sempurnakan dengan shalat dhuha ya :)"
   end
 
   config.respond_to_phrase "magandang umaga" do |responses|
